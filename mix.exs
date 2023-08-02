@@ -1,7 +1,7 @@
 defmodule Phx.Gen.Tailwind.MixProject do
   use Mix.Project
 
-  @version "0.1.3"
+  @version "0.1.4"
   @url "https://github.com/kevinlang/phx_gen_tailwind"
 
   def project do
@@ -26,7 +26,7 @@ defmodule Phx.Gen.Tailwind.MixProject do
 
   defp deps do
     [
-      {:phoenix, "~> 1.6.0"},
+      {:phoenix, "~> 1.7.0"},
 
       # Docs dependencies
       {:ex_doc, "~> 0.20", only: :docs}
